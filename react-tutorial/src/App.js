@@ -10,6 +10,10 @@ import Counter from './components/SetStateExample';
 import FunctionalEventHandling from './components/FunctionalEventHandling';
 import ClassEventHandling from './components/ClassEventHandling';
 import BindingEvent from './components/BindingEvent';
+import ParentComponent from './components/ParentComponent';
+import ConditionalRendering from './components/ConditionalRendering';
+import ListRendering from './components/ListRendering';
+import NameList from './components/NameList';
 
 class App extends Component {
   render() {
@@ -30,7 +34,11 @@ class App extends Component {
           {/* <Counter/> */}
           {/* <FunctionalEventHandling></FunctionalEventHandling>
           <ClassEventHandling></ClassEventHandling> */}
-          <BindingEvent></BindingEvent>
+          {/* <BindingEvent></BindingEvent> */}
+          {/* <ParentComponent></ParentComponent> */}
+          {/* <ConditionalRendering></ConditionalRendering> */}
+          {/* <ListRendering></ListRendering> */}
+          <NameList></NameList>
       </div>
     );
   }
