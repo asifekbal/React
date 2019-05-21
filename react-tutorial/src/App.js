@@ -14,11 +14,26 @@ import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
 import ListRendering from './components/ListRendering';
 import NameList from './components/NameList';
+import CSSStylesheet from './components/CSSStylesheet';
+import InlineStyle from './components/InlineStyle';
+import './css/appStyle.css';
+import styles from './css/appStyle.module.css'
+import From from './components/forms/From';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+
+
+      <From></From>
+      
+      {/* Styling with CSS */}
+      {/* <CSSStylesheet primary={true}></CSSStylesheet> */}
+      {/* <InlineStyle></InlineStyle> 
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+
     {/*     <Greet></Greet>
         <Welcome></Welcome>
         <JSX></JSX>
@@ -38,7 +53,7 @@ class App extends Component {
           {/* <ParentComponent></ParentComponent> */}
           {/* <ConditionalRendering></ConditionalRendering> */}
           {/* <ListRendering></ListRendering> */}
-          <NameList></NameList>
+          {/* <NameList></NameList> */}
       </div>
     );
   }
