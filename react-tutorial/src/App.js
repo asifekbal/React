@@ -19,14 +19,17 @@ import InlineStyle from './components/InlineStyle';
 import './css/appStyle.css';
 import styles from './css/appStyle.module.css'
 import From from './components/forms/From';
+import LifecycleA from './components/forms/LifecycleA';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
 
+      <LifecycleA></LifecycleA>
 
-      <From></From>
+
+      {/* <From></From> */}
       
       {/* Styling with CSS */}
       {/* <CSSStylesheet primary={true}></CSSStylesheet> */}

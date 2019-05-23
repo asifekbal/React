@@ -1,9 +1,11 @@
 ####################Tutorials###################################
 ########LifeCycle Method in React in Class Component#############
 
+Note : This methods exist only in Class Component. They don't exist in Functional Component.
+
 
 1. Mounting -
-    a) constructor()
+    a) constructor() 
     b) static getDerivedStateFromProps()
     c) render()
     d) componentDidMount()
