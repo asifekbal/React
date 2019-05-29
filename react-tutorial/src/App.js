@@ -20,14 +20,31 @@ import './css/appStyle.css';
 import styles from './css/appStyle.module.css'
 import From from './components/forms/From';
 import LifecycleA from './components/forms/LifecycleA';
+import FragmentDemo from './components/advanced/FragmentDemo';
+import PureComp from './components/advanced/PureComp';
+import ParentComp from './components/advanced/ParentComp';
+import RefsDemo from './components/advanced/RefsDemo';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
 
-      <LifecycleA></LifecycleA>
+      <RefsDemo></RefsDemo>
 
+      {/* <FragmentDemo></FragmentDemo> */}
+
+      {/* <ParentComp></ParentComp> */}
+
+
+
+
+
+
+
+
+
+      {/* <LifecycleA></LifecycleA> */}
 
       {/* <From></From> */}
       
